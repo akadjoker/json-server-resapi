@@ -9,6 +9,7 @@ export const useFetch = (url) =>
     const [method, setMethod] = useState(null);
     const [callFetch, setCallFetch] = useState(false);
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
 
     const httpConfig = (data, method) =>
     {
@@ -30,9 +31,19 @@ export const useFetch = (url) =>
         async function fetchData() 
         {
             setLoading(true);
-            const res = await fetch(url);
-            const data = await res.json();
-            setData(data);
+        
+            try 
+            {
+                const res = await fetch(url);
+                const data = await res.json();
+                setData(data);
+            }
+            catch (error) 
+            {  
+                console.log(error.message);
+                setError("fail to fetch data");
+            }
+
             setLoading(false);
         }
         fetchData();
@@ -55,6 +66,6 @@ export const useFetch = (url) =>
 
     }, [config]);
 
-    return {data,httpConfig,loading};
+    return {data,httpConfig,loading,error};
 }
 

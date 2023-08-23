@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "camisa",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "name": "pantalon",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "name": "zapatos",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "name": "gorra",
+      "price": 40
+    },
+    {
+      "id": 5,
+      "name": "cinturon",
+      "price": 50
+    },
+    {
+      "id": 6,
+      "name": "calcetines",
+      "price": 60
+    },
+    {
+      "id": 7,
+      "name": "corbata",
+      "price": 70
+    },
+    {
+      "id": 8,
+      "name": "chaqueta",
+      "price": 80
+    },
+    {
+      "id": 9,
+      "name": "falda",
+      "price": 90
+    },
+    {
+      "id": 10,
+      "name": "vestido",
+      "price": 100
+    },
+    {
+      "id": 11,
+      "name": "pantaloneta",
+      "price": 110
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "price": 120
+    },
+    {
+      "id": 13,
+      "name": "blusa",
+      "price": 130
+    },
+    {
+      "id": 14,
+      "name": "sudadera",
+      "price": 140
+    },
+    {
+      "id": 15,
+      "name": "abrigo",
+      "price": 150
+    },
+    {
+      "id": 16,
+      "name": "chaqueta",
+      "price": 160
+    },
+    {
+      "id": 17,
+      "name": "blazer",
+      "price": 170
+    },
+    {
+      "id": 18,
+      "name": "saco",
+      "price": 180
+    },
+    {
+      "id": 19,
+      "name": "chaleco",
+      "price": 190
+    },
+    {
+      "id": 20,
+      "name": "camiseta",
+      "price": 200
+    },
+    {
+      "name": "bone",
+      "price": "3",
+      "id": 21
+    },
+    {
+      "name": "lapis",
+      "price": "2",
+      "id": 22
+    },
+    {
+      "name": "caneta",
+      "price": "2",
+      "id": 23
+    },
+    {
+      "name": "computador",
+      "price": "22222",
+      "id": 24
+    },
+    {
+      "name": "fifela",
+      "price": "3",
+      "id": 25
+    }
+  ]
+}
